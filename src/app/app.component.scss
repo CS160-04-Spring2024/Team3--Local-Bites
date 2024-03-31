@@ -1,0 +1,41 @@
+// Main header styles
+.main-header {
+    background-color: #3cb371; // Green background color
+    border-bottom: 1px solid #2e8b57; // Darker green border at the bottom for separation
+  
+    .header-content {
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px; // Reduced padding for a cleaner look
+  
+      .logo {
+        h1 {
+          margin: 0;
+          font-size: 24px;
+          color: #fff; // White text color for the logo
+          font-weight: bold; // Make the logo text bold
+        }
+      }
+  
+      .nav-links {
+        display: flex;
+        align-items: center;
+  
+        a {
+          margin-right: 20px;
+          color: #ffffff; // Blue text color for links
+          text-decoration: none;
+          font-size: 16px; // Reduced font size for a cleaner appearance
+  
+          &:hover {
+            color: #4682b4; // Darker blue color on hover for links
+          }
+  
+          &.active {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  
