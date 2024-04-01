@@ -1,4 +1,4 @@
-$secondary-color:#141a33;
+$secondary-color:#4164ee;
 $primary-color:#3cb371;
 $white:#ffffff;
 $White-one: #fcfcfc;
@@ -18,7 +18,7 @@ $White-one: #fcfcfc;
     a {
         font-weight: 300;
         font-size: 15px;
-        border-radius: 0px;
+        border-radius: 10px;
         color: white;
     }
 
@@ -47,6 +47,7 @@ $White-one: #fcfcfc;
         .nav-links {
             list-style-type: none;
             padding: 15px 0px;
+            
         }
 
         a {
