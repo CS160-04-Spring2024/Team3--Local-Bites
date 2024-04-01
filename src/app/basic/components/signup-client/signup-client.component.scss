@@ -1,0 +1,32 @@
+.bg {
+    background-color: #f0f2f5; /* Set background color */
+    height: 100vh; /* Set full viewport height */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .parent {
+    width: 100%; /* Set full width */
+    max-width: 400px; /* Set maximum width */
+  }
+  
+  .child {
+    background-color: #fff; /* Set background color */
+    border-radius: 5px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  nz-form-item {
+    margin-bottom: 15px; /* Add margin between form items */
+  }
+  
+  .login-form-button {
+    width: 100%; /* Set button width to 100% of its container */
+  }
+  
+  .login-form-margin {
+    margin-top: 10px; /* Add margin on top of the button */
+  }
+  

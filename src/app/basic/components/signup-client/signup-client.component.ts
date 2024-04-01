@@ -22,7 +22,7 @@ export class SignupClientComponent implements OnInit {
       email: [null, [Validators.email, Validators.required]],
       name: [null, [Validators.required]],
       lastname: [null, Validators.required],
-      zipcode: [null],
+      zipcode: [null, Validators.required],
       password: [null, Validators.required],
       checkpassword: [null, Validators.required]
     });
