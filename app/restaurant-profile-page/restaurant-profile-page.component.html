@@ -1,0 +1,13 @@
+<div class="content-box" *ngFor="let rest of restaurant">
+    <a routerLink="/restaurants">
+        <button>back</button>
+    </a>
+    <h2>{{rest.name}}</h2>
+    <h3>{{rest.description}}</h3>
+    <h4>{{rest.stars}}</h4>
+    <a routerLink="/restaurant-menu">
+        <button>
+            Show Menu
+        </button>
+    </a>
+</div>

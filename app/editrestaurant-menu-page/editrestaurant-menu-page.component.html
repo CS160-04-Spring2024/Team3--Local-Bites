@@ -1,0 +1,10 @@
+<div class="content-box" *ngFor="let restaurant of restaurant">
+    <h2>Edit Menu</h2>
+    <app-restaurant-data-form 
+        buttonText="Save Changes"
+        [currentName]="restaurant.name"
+        [currentDescription]="restaurant.description"
+        [currentStars]="restaurant.stars.toString()" 
+        (onSubmit)="onSubmit()">
+    </app-restaurant-data-form>
+</div>

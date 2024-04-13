@@ -1,0 +1,21 @@
+
+<div class="content-box" *ngFor="let restaurant of restaurants">
+    <a routerLink="/restaurants">
+        <button>back</button>
+    </a>
+    <h2>{{restaurant.name}}</h2>
+    <h3>{{restaurant.description}}</h3>
+    <h4>{{restaurant.stars}}</h4>
+    <div class="button-container">
+    <a routerLink="/edit-menu/{{restaurant.id}}">
+        <button>Edit</button>
+    </a>
+    <button (click)="onDeleteClicked(restaurant.id)">
+    Delete
+    </button>
+    </div>
+</div>
+<a routerLink="/new-menu">
+    <Button>
+    Add more menu
+    </Button></a>

@@ -1,0 +1,8 @@
+<div>
+    <div class="content-box" *ngFor="let restaurant of restaurants"> <!-- Changed 'listing' to 'listing' -->
+        <a [routerLink]="'/restaurants/' + restaurant.id"> 
+            <h3>{{ restaurant.name}} ->  Review-stars{{restaurant.stars}}</h3> 
+        </a>
+    </div>
+</div>
+ 
