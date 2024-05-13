@@ -1,7 +1,7 @@
-#WARNING: We had issues with this repo originally and had to make our own. Here is the link:
-##https://github.com/peterguilhametjr/CS160Proj.git
+# WARNING: We had issues with this repo originally and had to make our own. Here is the link:
+## https://github.com/peterguilhametjr/CS160Proj.git
 
-##It includes a modern README file there too. Sorry for the inconvenience.
+## It includes a modern README file there too. Sorry for the inconvenience.
 
 
 
